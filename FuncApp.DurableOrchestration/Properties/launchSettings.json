@@ -1,8 +1,8 @@
 {
   "profiles": {
-    "FuncApp.DurableHttp": {
+    "FuncApp.DurableOrchestration": {
       "commandName": "Project",
-      "commandLineArgs": "--port 7045 --verbose",
+      "commandLineArgs": "--port 7181 --verbose",
       "launchBrowser": false
     }
   }

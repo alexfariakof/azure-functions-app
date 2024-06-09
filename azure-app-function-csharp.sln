@@ -3,13 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncApp.HttpTrigger", "FuncApp.HttpTrigger\FuncApp.HttpTrigger.csproj", "{60E2C3A9-A07C-45E3-9D75-645AA7BE9B9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncApp.HttpTrigger", "FuncApp.HttpTrigger\FuncApp.HttpTrigger.csproj", "{60E2C3A9-A07C-45E3-9D75-645AA7BE9B9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncApp.TimerTrigger", "FuncApp.TimerTrigger\FuncApp.TimerTrigger.csproj", "{D35BC14E-98B0-4FEA-A491-15D811EB024F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncApp.TimerTrigger", "FuncApp.TimerTrigger\FuncApp.TimerTrigger.csproj", "{D35BC14E-98B0-4FEA-A491-15D811EB024F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncApp.DurableHttp", "FuncApp.DurableHttp\FuncApp.DurableHttp.csproj", "{CF2195A9-C28D-43B2-B678-CFFA81ECEEA8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuncApp.Client", "FuncApp.Client\FuncApp.Client.csproj", "{8EBA4F49-B3B9-4A54-9AD5-CD2FC1494656}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncApp.Client", "FuncApp.Client\FuncApp.Client.csproj", "{8EBA4F49-B3B9-4A54-9AD5-CD2FC1494656}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CEAC1DED-649F-4DDB-8C48-DD815A5C165F}"
+	ProjectSection(SolutionItems) = preProject
+		FuncApp.DurableHttp\Program.cs = FuncApp.DurableHttp\Program.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuncApp.DurableOrchestration", "FuncApp.DurableOrchestration\FuncApp.DurableOrchestration.csproj", "{4E9AE141-5354-4F97-A22D-2D34A7EFB59C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,14 +30,14 @@ Global
 		{D35BC14E-98B0-4FEA-A491-15D811EB024F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D35BC14E-98B0-4FEA-A491-15D811EB024F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D35BC14E-98B0-4FEA-A491-15D811EB024F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CF2195A9-C28D-43B2-B678-CFFA81ECEEA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CF2195A9-C28D-43B2-B678-CFFA81ECEEA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CF2195A9-C28D-43B2-B678-CFFA81ECEEA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CF2195A9-C28D-43B2-B678-CFFA81ECEEA8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8EBA4F49-B3B9-4A54-9AD5-CD2FC1494656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8EBA4F49-B3B9-4A54-9AD5-CD2FC1494656}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8EBA4F49-B3B9-4A54-9AD5-CD2FC1494656}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8EBA4F49-B3B9-4A54-9AD5-CD2FC1494656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E9AE141-5354-4F97-A22D-2D34A7EFB59C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E9AE141-5354-4F97-A22D-2D34A7EFB59C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E9AE141-5354-4F97-A22D-2D34A7EFB59C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E9AE141-5354-4F97-A22D-2D34A7EFB59C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
