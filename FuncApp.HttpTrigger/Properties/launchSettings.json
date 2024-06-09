@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FuncApp.HttpTrigger": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7044",
+      "launchBrowser": true
+    }
+  }
+}

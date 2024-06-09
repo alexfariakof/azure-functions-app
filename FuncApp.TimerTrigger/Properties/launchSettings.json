@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FuncApp.TimerTrigger": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7170 --verbose",
+      "launchBrowser": false
+    }
+  }
+}

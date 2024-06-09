@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "appInsights1": {
+      "type": "appInsights.sdk"
+    },
+    "storage1": {
+      "type": "storage.emulator",
+      "connectionId": "/subscriptions/973ce7fb-4eb5-4bf2-9b6c-48579dc84acb/resourceGroups/func-app-group/providers/Microsoft.Storage/storageAccounts/chasrpfuncappstorage"
+    }
+  }
+}

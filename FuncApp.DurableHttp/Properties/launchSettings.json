@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "FuncApp.DurableHttp": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7045 --verbose",
+      "launchBrowser": false
+    }
+  }
+}
